@@ -5,7 +5,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | -------------------------------------------------------------------
 | MIME TYPES
 | -------------------------------------------------------------------
+<<<<<<< HEAD
 | This file contains an array of mime types.  It is used by the
+=======
+| This file contains an array of mime types. It is used by the
+>>>>>>> 84d7c1e93e6abc73e2b24fe6d5fcdfeab7838330
 | Upload class to help identify allowed file types.
 |
 */
@@ -85,9 +89,17 @@ return array(
 	'jpm'	=>	array('image/jp2', 'video/mj2', 'image/jpx', 'image/jpm'),
 	'mj2'	=>	array('image/jp2', 'video/mj2', 'image/jpx', 'image/jpm'),
 	'mjp2'	=>	array('image/jp2', 'video/mj2', 'image/jpx', 'image/jpm'),
+<<<<<<< HEAD
 	'png'	=>	array('image/png',  'image/x-png'),
 	'tiff'	=>	'image/tiff',
 	'tif'	=>	'image/tiff',
+=======
+	'png'	=>	array('image/png', 'image/x-png'),
+	'tiff'	=>	'image/tiff',
+	'tif'	=>	'image/tiff',
+	'heic' 	=>	'image/heic',
+	'heif' 	=>	'image/heif',
+>>>>>>> 84d7c1e93e6abc73e2b24fe6d5fcdfeab7838330
 	'css'	=>	array('text/css', 'text/plain'),
 	'html'	=>	array('text/html', 'text/plain'),
 	'htm'	=>	array('text/html', 'text/plain'),
@@ -140,7 +152,11 @@ return array(
 	'f4v'   =>	array('video/mp4', 'video/x-f4v'),
 	'flv'	=>	'video/x-flv',
 	'webm'	=>	'video/webm',
+<<<<<<< HEAD
 	'aac'   =>	'audio/x-acc',
+=======
+	'aac'   =>	array('audio/x-aac', 'audio/aac'),
+>>>>>>> 84d7c1e93e6abc73e2b24fe6d5fcdfeab7838330
 	'm4u'   =>	'application/vnd.mpegurl',
 	'm3u'   =>	'text/plain',
 	'xspf'  =>	'application/xspf+xml',
@@ -160,7 +176,11 @@ return array(
 	'cdr'	=>	array('application/cdr', 'application/coreldraw', 'application/x-cdr', 'application/x-coreldraw', 'image/cdr', 'image/x-cdr', 'zz-application/zz-winassoc-cdr'),
 	'wma'	=>	array('audio/x-ms-wma', 'video/x-ms-asf'),
 	'jar'	=>	array('application/java-archive', 'application/x-java-application', 'application/x-jar', 'application/x-compressed'),
+<<<<<<< HEAD
 	'svg'	=>	array('image/svg+xml', 'application/xml', 'text/xml'),
+=======
+	'svg'	=>	array('image/svg+xml', 'image/svg', 'application/xml', 'text/xml'),
+>>>>>>> 84d7c1e93e6abc73e2b24fe6d5fcdfeab7838330
 	'vcf'	=>	'text/x-vcard',
 	'srt'	=>	array('text/srt', 'text/plain'),
 	'vtt'	=>	array('text/vtt', 'text/plain'),

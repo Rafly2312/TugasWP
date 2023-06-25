@@ -10,7 +10,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | :-) and :) use the same image replacement.
 |
 | Please see user guide for more info:
+<<<<<<< HEAD
 | https://codeigniter.com/user_guide/helpers/smiley_helper.html
+=======
+| https://codeigniter.com/userguide3/helpers/smiley_helper.html
+>>>>>>> 84d7c1e93e6abc73e2b24fe6d5fcdfeab7838330
 |
 */
 $smileys = array(

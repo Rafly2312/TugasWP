@@ -1,5 +1,9 @@
 <?php
+<<<<<<< HEAD
 defined('BASEPATH') or exit('No direct script access allowed');
+=======
+defined('BASEPATH') OR exit('No direct script access allowed');
+>>>>>>> 84d7c1e93e6abc73e2b24fe6d5fcdfeab7838330
 
 /*
 | -------------------------------------------------------------------
@@ -58,7 +62,11 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
+<<<<<<< HEAD
 $autoload['libraries'] = array('form_validation', 'session', 'database');
+=======
+$autoload['libraries'] = array();
+>>>>>>> 84d7c1e93e6abc73e2b24fe6d5fcdfeab7838330
 
 /*
 | -------------------------------------------------------------------
@@ -89,7 +97,11 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
+<<<<<<< HEAD
 $autoload['helper'] = array('url', 'file', 'pustaka');
+=======
+$autoload['helper'] = array('url');
+>>>>>>> 84d7c1e93e6abc73e2b24fe6d5fcdfeab7838330
 
 /*
 | -------------------------------------------------------------------
@@ -132,4 +144,8 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
+<<<<<<< HEAD
 $autoload['model'] = array('ModelUser', 'ModelBuku');
+=======
+$autoload['model'] = array();
+>>>>>>> 84d7c1e93e6abc73e2b24fe6d5fcdfeab7838330

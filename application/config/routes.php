@@ -1,5 +1,9 @@
 <?php
+<<<<<<< HEAD
 defined('BASEPATH') or exit('No direct script access allowed');
+=======
+defined('BASEPATH') OR exit('No direct script access allowed');
+>>>>>>> 84d7c1e93e6abc73e2b24fe6d5fcdfeab7838330
 
 /*
 | -------------------------------------------------------------------------
@@ -19,7 +23,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
 |
 | Please see the user guide for complete details:
 |
+<<<<<<< HEAD
 |	https://codeigniter.com/user_guide/general/routing.html
+=======
+|	https://codeigniter.com/userguide3/general/routing.html
+>>>>>>> 84d7c1e93e6abc73e2b24fe6d5fcdfeab7838330
 |
 | -------------------------------------------------------------------------
 | RESERVED ROUTES
@@ -49,6 +57,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
+<<<<<<< HEAD
 $route['default_controller'] = 'autentifikasi';
+=======
+$route['default_controller'] = 'welcome';
+>>>>>>> 84d7c1e93e6abc73e2b24fe6d5fcdfeab7838330
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
